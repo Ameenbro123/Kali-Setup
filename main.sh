@@ -5,7 +5,7 @@ if [ $yorn = "Y" ]; then
     sudo apt install python python3 python3-pip python-pip veil git curl rkhunter aide
     mkdir installs
     git clone https://github.com/Screetsec/TheFatRat.git ./installs/
-    cd TheFatRat
+    cd ./installs/TheFatRat
     chmod +x setup.sh && ./setup.sh
 else
     clear
