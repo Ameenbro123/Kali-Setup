@@ -12,6 +12,6 @@ then
 else
     clear
     cat Bye.
-    sleep 5
+    sleep 4
     clear
 fi
